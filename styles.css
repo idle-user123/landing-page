@@ -1,0 +1,23 @@
+.main-header{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(to right,orange,rgb(214, 106, 124) 80%);
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background: linear-gradient(to right, orange, #e26c80 80%);
+}
+
+.carousel-item{
+    height: 450px;
+    background-image: url("gym photo.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
